@@ -1,0 +1,108 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U signal_register_database%s  signal_register_database.ads  d40bd897 DE NE OO PK
+W constants%s		constants.ads		constants.ali
+W registers%s		registers.ads		registers.ali
+W signals%s		signals.ads		signals.ali
+
+D constants.ads		20171008165510 24da05f0
+D registers.ads		20171008172210 277491f6
+D signal_register_database.ads  20171009070328 99f177e4
+D signals.ads		20171008172310 4e543b75
+D system.ads		20110428140910 bc164b96
+D s-unstyp.ads		20110428140908 6ae15c76
+X 1 constants.ads
+3K9*Constants 19e14 3|1w6 13r28 15r28 28r73 34r73 40r73 46r73 52r73 58r73
+. 64r73 70r73 80r73 86r73 92r73 98r73 104r73 114r73 120r73 126r73 132r73
+. 138r73 144r73 154r73 160r73 166r73 172r73 178r73 184r73 194r28 196r28 209r74
+6E9*Phase_Key 9e36 3|13r38 194r38
+6n23*First_Phase{6E9} 3|28r83 34r83 80r83 114r83 154r83 209r84
+7n23*Second_Phase{6E9} 3|40r83 58r83 64r83 70r83 86r83 120r83 160r83
+8n23*Third_Phase{6E9} 3|52r83 92r83 98r83 104r83 126r83 132r83 138r83 144r83
+. 166r83 172r83 178r83 184r83
+9n23*Fourth_Phase{6E9} 3|46r83
+11M9*Bit_Number_Type 3|15r38 196r38
+X 2 registers.ads
+2K9*Registers 31e14 3|3w6 14r28 29r73 35r73 41r73 47r73 53r73 59r73 65r73
+. 71r73 81r73 87r73 93r73 99r73 105r73 115r73 121r73 127r73 133r73 139r73
+. 145r73 155r73 161r73 167r73 173r73 179r73 185r73 195r28 210r74
+7E9*Input_Registers 13e47 3|14r38
+7n29*Initialisation_Register{7E9} 3|155r83 161r83 167r83 173r83 179r83 185r83
+9n29*Launch_Register{7E9} 3|29r83 35r83 41r83 47r83 53r83 59r83 65r83 71r83
+10n29*Control_Monitor{7E9} 3|81r83 87r83 93r83 99r83 105r83
+13n29*Datalink_Register{7E9} 3|115r83 121r83 127r83 133r83 139r83 145r83
+27E9*Output_Registers 27e48 3|195r38
+27n30*Command_Registers{27E9} 3|210r84
+X 3 signal_register_database.ads
+7K9*Signal_Register_Database 215l5 215e29
+12R9*Input_Signals_Database 17e14 19r78 28r32 34r32 40r32 46r32 52r32 58r32
+. 64r32 70r32 80r32 86r32 92r32 98r32 104r32 114r32 120r32 126r32 132r32
+. 138r32 144r32 154r32 160r32 166r32 172r32 178r32 184r32
+13e7*Phase_Key{1|6E9} 28m56 34m56 40m56 46m56 52m56 58m56 64m56 70m56 80m56
+. 86m56 92m56 98m56 104m56 114m56 120m56 126m56 132m56 138m56 144m56 154m56
+. 160m56 166m56 172m56 178m56 184m56
+14e7*Register{2|7E9} 29m56 35m56 41m56 47m56 53m56 59m56 65m56 71m56 81m56
+. 87m56 93m56 99m56 105m56 115m56 121m56 127m56 133m56 139m56 145m56 155m56
+. 161m56 167m56 173m56 179m56 185m56
+15m7*Bit_Number{1|11M9} 30m56 36m56 42m56 48m56 54m56 60m56 66m56 72m56 82m56
+. 88m56 94m56 100m56 106m56 116m56 122m56 128m56 134m56 140m56 146m56 156m56
+. 162m56 168m56 174m56 180m56 186m56
+16b7*Default_State{boolean} 31m56 37m56 43m56 49m56 55m56 61m56 67m56 73m56
+. 83m56 89m56 95m56 101m56 107m56 117m56 123m56 129m56 135m56 141m56 147m56
+. 157m56 163m56 169m56 175m56 181m56 187m56
+19A9*Input_Register_Mapping_Array(12R9)<4|8E9> 22r40 23r6
+22a4*Input_Registers_Database{19A9}
+193R9*Output_Signals_Database 198e14 200r80 209r32
+194e7*Phase_Key{1|6E9} 209m57
+195e7*Register{2|27E9} 210m57
+196m7*Bit_Number{1|11M9} 211m57
+197b7*Default_State{boolean} 212m57
+200A9*Output_Register_Mapping_Array(193R9)<4|67E9> 203r41 204r6
+203a4*Output_Registers_Database{200A9}
+X 4 signals.ads
+3K9*Signals 3|2w6 19r48 27r30 33r30 39r30 45r30 51r30 57r30 63r30 69r30 79r30
+. 85r30 91r30 97r30 103r30 113r30 119r30 125r30 131r30 137r30 143r30 153r30
+. 159r30 165r30 171r30 177r30 183r30 200r49 208r30 4|80e12
+8E9*Input_Signal_Type 3|19r56 4|26e53
+10n31*Launch_Code_1{8E9} 3|27r38
+10n46*Launch_Code_2{8E9} 3|33r38
+10n61*Launch_Code_3{8E9} 3|39r38
+11n31*Launch_Code_4{8E9} 3|45r38
+11n46*Launch_Code_5{8E9} 3|51r38
+11n61*Launch_Code_6{8E9} 3|57r38
+12n31*Remote_Access{8E9} 3|63r38
+12n46*Activate_Setup{8E9} 3|69r38
+15n31*Instance_1{8E9} 3|79r38
+15n43*Instance_2{8E9} 3|85r38
+15n55*Instance_3{8E9} 3|91r38
+16n31*Diagnostic_Check_Pulse{8E9} 3|97r38
+17n31*Logic_Counter{8E9} 3|103r38
+20n31*Safety_Code_1{8E9} 3|113r38
+20n46*Speed_Signal{8E9} 3|119r38
+20n60*Trajectory_Initialise{8E9} 3|125r38
+21n31*Corruption_Check{8E9} 3|131r38
+21n49*Delivery_Set{8E9} 3|137r38
+21n63*Delivery_Reset{8E9} 3|143r38
+24n31*Check_For_Arming_Key_Set{8E9} 3|153r38
+24n57*Check_For_Arming_Key_Reset{8E9} 3|159r38
+25n31*Check_Sonar_Test{8E9} 3|165r38
+25n49*Check_Hangar_Weight{8E9} 3|171r38
+25n70*Check_Clamp{8E9} 3|177r38
+26n31*Check_Umbilical_Cable{8E9} 3|183r38
+67E9*Output_Signal_Type 3|200r57 4|69e45
+69n31*Set_Command_1{67E9} 3|208r38
+

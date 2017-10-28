@@ -1,0 +1,14 @@
+20171010134258
+-c
+-x
+ada
+-gnatA
+-g
+-gnato
+-gnatVn
+-fstack-check
+-gnatE
+-g
+-gnata
+-gnatf
+-gnat12

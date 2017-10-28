@@ -1,0 +1,35 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U constants%s		constants.ads		24da05f0 DE NE OO PK
+
+D constants.ads		20171008165510 24da05f0
+D system.ads		20110428140910 bc164b96
+X 1 constants.ads
+3K9*Constants 19l5 19e14
+6E9*Phase_Key 9e36
+6n23*First_Phase{6E9}
+7n23*Second_Phase{6E9}
+8n23*Third_Phase{6E9}
+9n23*Fourth_Phase{6E9}
+11M9*Bit_Number_Type
+13E9*Hanger_Door_Locks_Type 14e41
+13n36*Centre{13E9}
+14n36*Rear{13E9}
+16E9*Rockets_Type 17e36
+16n26*Primary{16E9}
+17n26*Secondary{16E9}
+

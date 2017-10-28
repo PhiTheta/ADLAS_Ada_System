@@ -1,0 +1,43 @@
+V "GNAT Lib v2011"
+M P W=b
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U project_main%b	project_main.adb	b70fd83c DE NE OO SU
+W constants%s		constants.ads		constants.ali
+W first_phase%s		first_phase.adb		first_phase.ali
+W main_system_checks%s	main_system_checks.adb	main_system_checks.ali
+
+D constants.ads		20171008165510 24da05f0
+D first_phase.ads	20170928202310 144511de
+D main_system_checks.ads  20171010104022 cf5f4c5a
+D project_main.adb	20171008171228 48cf8048
+D signals.ads		20171008172310 4e543b75
+D system.ads		20110428140910 bc164b96
+D s-unstyp.ads		20110428140908 6ae15c76
+X 1 constants.ads
+3K9*Constants 19e14 4|31w6 40r70
+16n26*Primary{16E9} 4|40r80
+X 2 first_phase.ads
+48K9*First_Phase 54e16 4|30w6 38r4
+52U14*Initialise 4|38s16
+X 3 main_system_checks.ads
+5K9*Main_System_Checks 32e23 4|32w6 40r16
+21V13*Rocket_Motor_Check{boolean} 4|40s35
+22e7 Rocket_Motor{1|16E9} 4|40r54
+X 4 project_main.adb
+34U11*Project_Main 34b11 46l5 46t17
+35b4 Complete{boolean} 40m4 42r7 43m7
+

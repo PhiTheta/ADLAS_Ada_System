@@ -1,0 +1,26 @@
+[GENERATED OBJECT FILE]
+b__project_main.o
+[PROJECT FILES]
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\project_system.gpr
+20171010134254
+[BOUND OBJECT FILES]
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\constants.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\failure_types.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\failure_log.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\first_phase.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\registers.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\signals.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\Project_Main.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\signal_register_database.o
+C:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\main_system_checks.o
+[GENERATED SOURCE FILES]
+b__project_main.ads
+b__project_main.adb
+b__project_main.ali
+[RESULTING OPTIONS]
+-LC:\Users\simon.crowther\OneDrive\Documents\STM32\System Project\Obj\
+-LC:/gnat/2011/lib/gcc/i686-pc-mingw32/4.5.3/adalib/
+-static
+-static-libgcc
+C:/gnat/2011/lib/gcc/i686-pc-mingw32/4.5.3/adalib/libgnat.a
+-Wl,--stack=0x2000000

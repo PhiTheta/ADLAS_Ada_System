@@ -1,0 +1,55 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U failure_types%s	failure_types.ads	7dfad76d DE NE OO PK IL
+
+D failure_types.ads	20171010110812 7dfad76d
+D system.ads		20110428140910 bc164b96
+X 1 failure_types.ads
+4K9*failure_types 100l5 100e18
+10I9*Severity_Value<short_short_integer> 34r28
+12E9*Failure_Location_Value 15e47 35r28
+12n36*Front{12E9} 49r30 54r30 59r30 69r30 79r30 84r30 94r30
+13n36*Back{12E9} 64r30 74r30 89r30
+14n36*Left_Side{12E9}
+15n36*Right_Side{12E9}
+17E9*Failure_Response_Value 20e43 36r28
+17n36*Shutdown{17E9} 85r30
+18n36*Reboot{17E9} 90r30
+19n36*Warning{17E9} 70r30 95r30
+20n36*Ignore{17E9} 50r30 55r30 60r30 65r30 75r30 80r30
+22E9*Failure_Id_Index 31e43 39r42
+22n30*Failure_001{22E9} 47r7
+23n30*Failure_002{22E9} 52r7
+24n30*Failure_003{22E9} 57r7
+25n30*Failure_004{22E9} 62r7
+26n30*Failure_005{22E9} 67r7
+27n30*Failure_006{22E9} 72r7
+28n30*Failure_007{22E9} 77r7
+29n30*Failure_008{22E9} 82r7
+30n30*Failure_009{22E9} 87r7
+31n30*Failure_0010{22E9} 92r7
+33R9*Failure_Attributes_Type 37e14 39r63 47r22 52r22 57r22 62r22 67r22 72r22
+. 77r22 82r22 87r22 92r23
+34i7*Severity{10I9} 48m10 53m10 58m10 63m10 68m10 73m10 78m10 83m10 88m10
+. 93m10
+35e7*Failure_Location{12E9} 49m10 54m10 59m10 64m10 69m10 74m10 79m10 84m10
+. 89m10 94m10
+36e7*Failure_Response{17E9} 50m10 55m10 60m10 65m10 70m10 75m10 80m10 85m10
+. 90m10 95m10
+39A9*Failure_Log_Array_Type(33R9)<22E9> 45r38 45r64
+45a4*Failure_Log_Attributes{39A9}
+

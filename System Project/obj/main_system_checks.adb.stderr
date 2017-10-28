@@ -1,0 +1,3 @@
+main_system_checks-hanger_door_check.adb:46:07: warning: formal parameter "Hanger_Door_Lock" is not referenced
+main_system_checks-rocket_motor_check.adb:46:04: warning: formal parameter "Rocket_Motor" is not referenced
+main_system_checks-clamp_rings_check.adb:46:07: warning: formal parameter "Clamp_Rings_Check_Signal" is not referenced

@@ -1,0 +1,63 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U main_system_checks%b	main_system_checks.adb	fbc3e0c6 DE NE OO PK
+W signal_register_database%s  signal_register_database.ads  signal_register_database.ali
+
+U main_system_checks%s	main_system_checks.ads	a5d172df DE EE NE OO PK
+W constants%s		constants.ads		constants.ali
+W signals%s		signals.ads		signals.ali
+
+D constants.ads		20171008165510 24da05f0
+D main_system_checks.ads  20171010104022 cf5f4c5a
+D main_system_checks.adb  20171010103924 e1c5adde
+D main_system_checks-check_arming_key_lock.adb  20171010104124 f23de14f main_system_checks.check_arming_key_lock
+D main_system_checks-clamp_rings_check.adb  20171008170032 41636e40 main_system_checks.clamp_rings_check
+D main_system_checks-get_signal_state.adb  20171008171948 09a2401d main_system_checks.get_signal_state
+D main_system_checks-hanger_door_check.adb  20171008170318 3e71dd52 main_system_checks.hanger_door_check
+D main_system_checks-rocket_motor_check.adb  20171008170420 51d41302 main_system_checks.rocket_motor_check
+D registers.ads		20171008172210 277491f6
+D signal_register_database.ads  20171009070328 99f177e4
+D signals.ads		20171008172310 4e543b75
+D system.ads		20110428140910 bc164b96
+D s-unstyp.ads		20110428140908 6ae15c76
+X 1 constants.ads
+3K9*Constants 19e14 2|2w6 17r29 22r25 3|17r29 23r25 7|46r29 8|46r22
+13E9*Hanger_Door_Locks_Type 14e41 2|17r39 3|17r39 7|46r39
+16E9*Rockets_Type 17e36 2|22r35 3|23r35 8|46r32
+X 2 main_system_checks.ads
+5K9*Main_System_Checks 32l5 32e23 3|3b14 33l5 33t23
+7V13*Check_Arming_Key_Lock{boolean} 8>7 3|5b13 4|45b10 57l5 57t26
+8e7 Arming_Key_Lock{11|8E9} 3|6b7 4|46b7
+11V13*Get_Signal_State{boolean} 12>7 3|10b13 6|45b10 57l5 57t21
+12e7 Signal{11|8E9} 3|11b7 6|46b7 53r62
+16V13*Hanger_Door_Check{boolean} 17>7 3|16b13 7|45b10 58l5 58t22
+17e7 Hanger_Door_Lock{1|13E9} 3|17b7 7|46b7
+21V13*Rocket_Motor_Check{boolean} 22>7 3|22b13 8|45b10 57l5 57t23
+22e7 Rocket_Motor{1|16E9} 3|23b7 8|46b4
+26V13*Clamp_Rings_Check{boolean} 27>7 3|28b13 5|45b10 58l5 58t22
+27e7 Clamp_Rings_Check_Signal{11|8E9} 3|29b7 5|46b7
+X 10 signal_register_database.ads
+7K9*Signal_Register_Database 6|40w6 53r12 10|215e29
+16b7*Default_State{boolean} 6|53r70
+19A9*Input_Register_Mapping_Array(12R9)<11|8E9>
+22a4*Input_Registers_Database{19A9} 6|53r37
+X 11 signals.ads
+3K9*Signals 2|1w6 8r29 12r19 27r37 3|6r29 11r19 29r37 4|46r29 5|46r37 6|46r19
+. 11|80e12
+8E9*Input_Signal_Type 2|8r37 12r27 27r45 3|6r37 11r27 29r45 4|46r37 5|46r45
+. 6|46r27 11|26e53
+

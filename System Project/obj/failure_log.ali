@@ -1,0 +1,54 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U failure_log%b		failure_log.adb		a3584303 DE NE OO PK IL KM
+W interfaces%s		interfac.ads		interfac.ali
+
+U failure_log%s		failure_log.ads		7d19725f DE EE NE OO PK IL
+W constants%s		constants.ads		constants.ali
+W failure_types%s	failure_types.ads	failure_types.ali
+
+D constants.ads		20171008165510 24da05f0
+D failure_log.ads	20171009070052 2439a0c2
+D failure_log.adb	20171010134348 c352ef72
+D failure_log-log_failure.adb  20171010134314 bfa6ce1c failure_log.log_failure
+D failure_log-severity_calculator.adb  20171007192610 fb95c2af failure_log.severity_calculator
+D failure_types.ads	20171010110812 7dfad76d
+D interfac.ads		20110428140906 f77d8799
+D system.ads		20110428140910 bc164b96
+X 1 constants.ads
+3K9*Constants 19e14 2|2w6 3|12r24 4|47r24
+6E9*Phase_Key 9e36 3|12r34 4|47r34
+X 2 failure_log.ads
+5K9*failure_log 13l5 13e16 3|2b14 20l5 20t16
+7V13*Severity_Calculator{6|10I9} 8>7 3|4b13 5|45b10 57l5 57t24
+8e7 Failure_Id{6|22E9} 3|5b7 5|46b4 53r49
+X 3 failure_log.adb
+10V13 Log_Failure{boolean} 4|45b10 67l5 67t16
+11e7 Failure_Id{6|22E9} 4|46b4 57r24
+12e7 Phase_Key{1|6E9} 4|47b4
+X 4 failure_log-log_failure.adb
+52e4 Failure_Id_Local{6|22E9} 57m4 59r7
+53b4 Failure_Logged{boolean} 60m7 62m7 65r11
+X 6 failure_types.ads
+4K9*failure_types 2|1w6 8r24 9r14 3|5r24 6r14 11r24 4|46r24 52r23 5|46r22
+. 47r11 53r12 6|100e18
+10I9*Severity_Value<short_short_integer> 2|9r28 3|6r28 5|47r25
+22E9*Failure_Id_Index 2|8r38 3|5r38 11r38 4|46r38 52r37 5|46r36 6|31e43
+34i7*Severity{10I9} 5|53r61
+39A9*Failure_Log_Array_Type(33R9)<22E9>
+45a4*Failure_Log_Attributes{39A9} 5|53r26
+

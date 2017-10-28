@@ -1,0 +1,35 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U registers%s		registers.ads		277491f6 DE NE OO PK
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D registers.ads		20171008172210 277491f6
+D system.ads		20110428140910 bc164b96
+D s-unstyp.ads		20110428140908 6ae15c76
+X 1 registers.ads
+2K9*Registers 31l5 31e14
+7E9*Input_Registers 13e47 15r8
+7n29*Initialisation_Register{7E9} 15r29
+8n29*Safety_Register{7E9} 16r29
+9n29*Launch_Register{7E9} 17r29
+10n29*Control_Monitor{7E9} 18r29
+11n29*Primary_Command_Register{7E9} 19r29
+12n29*Secondary_Command_Register{7E9} 20r29
+13n29*Datalink_Register{7E9} 21r29
+27E9*Output_Registers 27e48 29r8
+27n30*Command_Registers{27E9} 29r30
+

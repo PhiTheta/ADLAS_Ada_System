@@ -1,0 +1,53 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U signals%s		signals.ads		4e543b75 DE NE OO PK
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D signals.ads		20171008172310 4e543b75
+D system.ads		20110428140910 bc164b96
+D s-unstyp.ads		20110428140908 6ae15c76
+X 1 signals.ads
+3K9*Signals 80l5 80e12
+8E9*Input_Signal_Type 26e53 29r8
+10n31*Launch_Code_1{8E9} 30r31
+10n46*Launch_Code_2{8E9} 31r31
+10n61*Launch_Code_3{8E9} 32r31
+11n31*Launch_Code_4{8E9} 33r31
+11n46*Launch_Code_5{8E9} 34r31
+11n61*Launch_Code_6{8E9} 35r31
+12n31*Remote_Access{8E9} 36r31
+12n46*Activate_Setup{8E9} 37r31
+15n31*Instance_1{8E9} 40r31
+15n43*Instance_2{8E9} 41r31
+15n55*Instance_3{8E9} 42r31
+16n31*Diagnostic_Check_Pulse{8E9} 43r31
+17n31*Logic_Counter{8E9} 44r31
+20n31*Safety_Code_1{8E9} 47r31
+20n46*Speed_Signal{8E9} 48r31
+20n60*Trajectory_Initialise{8E9} 49r31
+21n31*Corruption_Check{8E9} 50r31
+21n49*Delivery_Set{8E9} 51r31
+21n63*Delivery_Reset{8E9} 52r31
+24n31*Check_For_Arming_Key_Set{8E9} 55r31
+24n57*Check_For_Arming_Key_Reset{8E9} 56r31
+25n31*Check_Sonar_Test{8E9} 57r31
+25n49*Check_Hangar_Weight{8E9} 58r31
+25n70*Check_Clamp{8E9} 59r31
+26n31*Check_Umbilical_Cable{8E9} 60r31
+67E9*Output_Signal_Type 69e45 72r8
+69n31*Set_Command_1{67E9} 73r31
+

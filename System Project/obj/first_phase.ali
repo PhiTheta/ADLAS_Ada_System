@@ -1,0 +1,45 @@
+V "GNAT Lib v2011"
+A -fstack-check
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U first_phase%b		first_phase.adb		04d86555 DE NE OO PK
+W failure_log%s		failure_log.adb		failure_log.ali
+W failure_types%s	failure_types.ads	failure_types.ali
+
+U first_phase%s		first_phase.ads		144511de DE EE NE OO PK
+
+D constants.ads		20171008165510 24da05f0
+D failure_log.ads	20171009070052 2439a0c2
+D failure_types.ads	20171010110812 7dfad76d
+D first_phase.ads	20170928202310 144511de
+D first_phase.adb	20171010113250 dba12c94
+D first_phase-initialise.adb  20171008122736 92ff2fb0 first_phase.initialise
+D system.ads		20110428140910 bc164b96
+X 2 failure_log.ads
+5K9*failure_log 13e16 5|47w6 6|56r24
+7V13*Severity_Calculator{3|10I9} 6|56s36
+8e7 Failure_Id{3|22E9} 6|56r56
+X 3 failure_types.ads
+4K9*failure_types 100e18 5|48w6 50r5 6|51r23 56r70
+10I9*Severity_Value<short_short_integer> 6|51r37
+31n30*Failure_0010{22E9} 6|56r84
+X 4 first_phase.ads
+48K9*First_Phase 54l5 54e16 5|52b14 58l5 58t16
+50B9*First_Phase_Start<boolean>
+52U14*Initialise 5|55b14 6|48b11 66l5 66t15
+X 6 first_phase-initialise.adb
+51i4 Failure_Severity{3|10I9} 56m4 58r7
+52b4 Correct{boolean} 59m7 61m7
+

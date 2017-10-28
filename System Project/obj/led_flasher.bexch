@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__led_flasher.o
+[PROJECT FILES]
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\flasher.gpr
+20170516113358
+[BOUND OBJECT FILES]
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\st.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\st-stm32f4.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\st-stm32f4-gpio.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\st-stm32f4-rcc.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\st-stm32f4-exti.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\button.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\lights.o
+C:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\led_flasher.o
+[GENERATED SOURCE FILES]
+b__led_flasher.ads
+b__led_flasher.adb
+b__led_flasher.ali
+[RESULTING OPTIONS]
+-LC:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\
+-LC:\Users\simon\OneDrive\Documents\STM32\Missile Defence System - Own Project\led_flasher-stm32f4\obj\
+-LC:\gnat\2017\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\
