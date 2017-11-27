@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main\Project_Main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\common_types\signal_register_database.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\failure\failure_types.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\first_phase\first_phase-initialise.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main\Project_Main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
