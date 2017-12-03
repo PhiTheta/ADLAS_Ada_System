@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
       <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main\Project_Main.adb</vfs_file>
@@ -15,11 +16,27 @@
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
-      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\first_phase\first_phase-initialise.adb</vfs_file>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main\Project_Main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main_Systems_Checks\main_system_checks-watchdog_check.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 46" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main_Systems_Checks\main_system_checks-watchdog_check.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\common_types\constants.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 46" >
+      <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main_Systems_Checks\main_system_checks-watchdog_check.adb</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\project_system_arm.gpr</vfs_project>
-      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\Main\Project_Main.adb</vfs_file>
+      <vfs_file>C:\Users\simon\Documents\Work\Programming\Ada\System Checks\System Project\common_types\watchdog.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>
