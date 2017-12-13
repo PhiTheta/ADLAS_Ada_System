@@ -12,13 +12,15 @@ package Registers is
                             Secondary_Command_Register,
                             Datalink_Register);
 
-   for Input_Registers use (Initialisation_Register        => 16#0000_0001#,
-                            Safety_Register                => 16#0000_0010#,
+   for Input_Registers use (Initialisation_Register        => 16#0000_0000#,
+                            Safety_Register                => 16#0000_0004#,
                             Launch_Register                => 16#0000_0100#,
                             Control_Monitor                => 16#0000_1000#,
                             Primary_Command_Register       => 16#0001_0000#,
                             Secondary_Command_Register     => 16#0010_0000#,
                             Datalink_Register              => 16#0100_0000#);
+	
+	for Input_Registers'Size use 32;
 
 ---------------------------------------------------------------------------------------------------
                              -- Output Registers
@@ -27,5 +29,7 @@ package Registers is
    type Output_Registers is (Command_Registers);
 
    for Output_Registers use (Command_Registers             => 16#2000_0000#);
+   
+   for Output_Registers'Size use 32;
 
 end Registers;
