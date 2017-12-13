@@ -58,6 +58,8 @@ package Signals is
                               Check_Hangar_Weight           =>  0023,
                               Check_Clamp                   =>  0024,
                               Check_Umbilical_Cable         =>  0025);
+							  
+	for Input_Signal_Type'Size use 1;
 
    -----------------------------------------------------------------------------
 
