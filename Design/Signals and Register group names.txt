@@ -1,0 +1,45 @@
+Thrust settings
+Input Payloads
+Output Payloads
+Pressure Sensor
+Temperature Sensor
+Box Faults
+HP Shaft (Overspeed)
+Smart Calibration Module
+Servo Pressure
+Fuel Metering Valve Minor Loop
+Engine Events
+Ignition
+Derived Models
+Engine operating modes
+Starting modes
+Control laws
+Air measurement
+EEC overheat
+Fuel System Control
+Heat Management
+HP Speed
+Oil Measurement 
+Power
+EMU Comms
+Case Cooling
+Channel Control
+Operating System EEC Functions
+Fuel Differential Pressure
+Auto-Relight
+Calibrated Airspeed Validation
+Safety Console
+Temperature
+Fuel Monitor
+Initialisation
+Guidance
+GPS
+Altitude
+Barometer
+Pressure
+Wind
+Pressure
+Sonar
+Flares
+Store
+Read directly from GPIO
