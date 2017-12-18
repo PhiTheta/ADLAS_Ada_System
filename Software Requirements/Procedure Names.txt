@@ -34,7 +34,21 @@ S_A_A_Drop_Test
 Launch_Latch_Check
 
 
-
+Release_Operational_Test
+Group_Faults
+Airside_Interface_Failure
+Seal_Lock_Failure
+Arm_Operational_Failure
+NVRAM_Address_Check
+SRAM_Address_Check
+Flash_Address_Check
+Active_Target_Window_Test
+Arming_[WEAPON]_Test
+Comms_Integrity_Test
+HP1_Interface_Test
+HB1_Interface_Test
+Serial_Link_Check
+Wrap_Up_Faults
 
 Guidance-
 Boost_Phase

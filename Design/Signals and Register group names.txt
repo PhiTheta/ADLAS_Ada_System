@@ -14,9 +14,7 @@ Derived Models
 Engine operating modes
 Starting modes
 Control laws
-Air measurement
-EEC overheat
-Fuel System Control
+
 Heat Management
 HP Speed
 Oil Measurement 
