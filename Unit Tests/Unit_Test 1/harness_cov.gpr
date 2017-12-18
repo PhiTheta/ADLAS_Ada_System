@@ -1,0 +1,51 @@
+project Harness_Cov is
+   
+   -- Declarations
+   lib_unit := "<package_name>";
+   harness  := "<proc_name>_harness";
+
+   for Languages use ("Ada");
+   for Object_Dir use "covobj";
+   for Target use "powerpc-elf";
+   for Runtime("Ada") use "zfp-mpc8641";
+   for Exec_Dir use "covexe";
+   for Source_Dirs use ("test", "stubs", "..\..\null_ops\**", "..\..\src\**");
+   for Main use (harness);
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnato", "-g", "-mcpu=440", "-msoft-float", "-fdump-scos", "-fpreserve-control-flow");
+   end Compiler;
+
+   package Builder is
+      for Default_Switches ("ada") use ("-g");
+   end Builder;
+
+   package Binder is
+      for Default_Switches ("ada") use ("-static");
+   end Binder;
+
+   package Linker is
+      for Default_Switches ("ada") use ("-Wl,--Map,linker.map");
+   end Linker;
+
+   package Ide is
+      for Gnat use "powerpc-elf-gnat";
+      for Gnatlist use "powerpc-elf-gnatls";
+      for Debugger_Command use "powerpc-elf-gdb";
+   end Ide;
+
+
+   package Pretty_Printer is
+      for Default_Switches ("ada") use ("-M160");
+   end Pretty_Printer;
+   
+   package Coverage is 
+      level  := "--level=stmt+mcdc";
+      scos   := "--scos=covobj\" & lib_unit & ".ali";
+     
+      for Switches ("run") use (level, scos);
+      for Switches ("coverage") use (level, "--annotate=dhtml", "--output-dir=cov", scos);
+   end Coverage;
+
+end Harness_Cov;
+

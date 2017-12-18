@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>\\THFP2\user\Simon.Crowther\Documents\operation_1\harness.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>\\THFP2\user\Simon.Crowther\Documents\operation_1\harness.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 9" >
+      <vfs_project />
+      <vfs_file>\\THFP2\user\Simon.Crowther\Documents\operation_1\harness.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>\\THFP2\user\Simon.Crowther\Documents\operation_1\harness.gpr</vfs_project>
+      <vfs_file>\\THFP2\user\Simon.Crowther\Documents\operation_1\test\harness_template.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>\\THFP2\user\Simon.Crowther\Documents\operation_1\harness.gpr</vfs_project>
+      <vfs_file>\\THFP2\user\Simon.Crowther\Documents\operation_1\test\test_data.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >Z:\GD\Mission_Data_Bus\Unit_Tests\package_template\operation_1\harness.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >Z:\GD\Mission_Data_Bus\Unit_Tests\package_template\operation_1\harness.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 25" line=" 7">
+      <vfs_project  />
+      <vfs_file >Z:\GD\Mission_Data_Bus\Unit_Tests\package_template\operation_1\harness.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

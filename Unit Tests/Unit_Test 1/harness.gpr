@@ -1,0 +1,33 @@
+project Harness is
+
+   -- Declarations
+   harness  := "<proc_name>_harness";
+   
+   for Languages use ("Ada");
+   for Object_Dir use "obj";
+   for Exec_Dir use "exe";
+   for Source_Dirs use ("test", "stubs", "..\..\null_ops\**", "..\..\src\**");
+   for Main use (harness);
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnato", "-g");
+   end Compiler;
+
+   package Builder is
+      for Default_Switches ("ada") use ("-g");
+   end Builder;
+
+   package Binder is
+      for Default_Switches ("ada") use ("-static");
+   end Binder;
+
+   package Linker is
+      for Default_Switches ("ada") use ();
+   end Linker;
+
+   package Pretty_Printer is
+      for Default_Switches ("ada") use ("-M160");
+   end Pretty_Printer;
+   
+end Harness;
+
