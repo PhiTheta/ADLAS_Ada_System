@@ -39,19 +39,20 @@
 ------------------------------------------------------------------------------------------------------------------------
 
 
-separate(Main_System_Checks)
+separate(General_Checks)
 
 
-function Watchdog_Check
-  (Watchdog_Kick : in Watchdog.Watchdog_Kick_Type)
-   return Boolean
+function Clamp_Rings_Check 
+     (Clamp_Rings_Check_Signal : in Signals.Input_Signal_Type)
+      return Boolean
+
   
 is
 
 begin
   
-   return False;
+   return false;
 
 
 
-end Watchdog_Check;
+end Clamp_Rings_Check;

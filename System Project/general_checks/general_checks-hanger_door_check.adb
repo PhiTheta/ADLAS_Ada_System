@@ -39,12 +39,13 @@
 ------------------------------------------------------------------------------------------------------------------------
 
 
-separate(Main_System_Checks)
+separate(General_Checks)
 
 
-function Check_Arming_Key_Lock
-     (Arming_Key_Lock  : in Signals.Input_Signal_Type)
-	  return Boolean
+function Hanger_Door_Check
+     (Hanger_Door_Lock : in Constants.Hanger_Door_Locks_Type)
+      return Boolean
+
   
 is
 
@@ -54,4 +55,4 @@ begin
 
 
 
-end Check_Arming_Key_Lock;
+end Hanger_Door_Check;

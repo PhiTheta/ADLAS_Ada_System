@@ -39,20 +39,19 @@
 ------------------------------------------------------------------------------------------------------------------------
 
 
-separate(Main_System_Checks)
+separate(General_Checks)
 
 
-function Hanger_Door_Check
-     (Hanger_Door_Lock : in Constants.Hanger_Door_Locks_Type)
-      return Boolean
-
+function Rocket_Motor_Check
+  (Rocket_Motor : in Constants.Rockets_Type)
+   return Boolean
   
 is
 
 begin
   
-   return false;
+   return False;
 
 
 
-end Hanger_Door_Check;
+end Rocket_Motor_Check;

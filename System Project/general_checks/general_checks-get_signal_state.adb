@@ -37,22 +37,21 @@
 -- Return:           
 -- Boolean Value
 ------------------------------------------------------------------------------------------------------------------------
+with Signal_Register_Database;
+
+separate(General_Checks)
 
 
-separate(Main_System_Checks)
-
-
-function Clamp_Rings_Check 
-     (Clamp_Rings_Check_Signal : in Signals.Input_Signal_Type)
+function Get_Signal_State 
+     (Signal : in Signals.Input_Signal_Type)
       return Boolean
-
   
 is
 
 begin
   
-   return false;
+   return (Signal_Register_Database.Input_Registers_Database(Signal).Default_State);
 
 
 
-end Clamp_Rings_Check;
+end Get_Signal_State;

@@ -37,21 +37,21 @@
 -- Return:           
 -- Boolean Value
 ------------------------------------------------------------------------------------------------------------------------
-with Signal_Register_Database;
-
-separate(Main_System_Checks)
 
 
-function Get_Signal_State 
-     (Signal : in Signals.Input_Signal_Type)
-      return Boolean
+separate(General_Checks)
+
+
+function Watchdog_Check
+  (Watchdog_Kick : in Watchdog.Watchdog_Kick_Type)
+   return Boolean
   
 is
 
 begin
   
-   return (Signal_Register_Database.Input_Registers_Database(Signal).Default_State);
+   return False;
 
 
 
-end Get_Signal_State;
+end Watchdog_Check;

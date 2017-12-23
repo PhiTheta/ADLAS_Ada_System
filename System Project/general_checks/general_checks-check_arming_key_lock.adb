@@ -39,19 +39,19 @@
 ------------------------------------------------------------------------------------------------------------------------
 
 
-separate(Main_System_Checks)
+separate(General_Checks)
 
 
-function Rocket_Motor_Check
-  (Rocket_Motor : in Constants.Rockets_Type)
-   return Boolean
+function Check_Arming_Key_Lock
+     (Arming_Key_Lock  : in Signals.Input_Signal_Type)
+	  return Boolean
   
 is
 
 begin
   
-   return False;
+   return false;
 
 
 
-end Rocket_Motor_Check;
+end Check_Arming_Key_Lock;
