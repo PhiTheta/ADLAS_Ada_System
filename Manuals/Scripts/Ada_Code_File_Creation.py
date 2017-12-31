@@ -38,7 +38,7 @@ def Workbook():
             Path = (Main_Path + '/' + File_Name_Lower_1 + '/')
             os.chdir(Path)
         else:
-            print('Creating Folder')
+            print('Creating Group Folder')
             Make = ('./' + File_Name_Lower_1)
             os.mkdir(Make)
             Path = (Main_Path + '/' + File_Name_Lower_1)
@@ -49,7 +49,7 @@ def Workbook():
             Path = (Main_Path + '/' + File_Name_Lower_1 + '/' + File_Name_Lower_2)
             os.chdir(Path)
         else:
-            print('Creating Folder')
+            print('Creating Sub Group Folder')
             Make = ('./' + File_Name_Lower_2)
             os.mkdir(Make)
             Path = (Main_Path + '/' + File_Name_Lower_1 + '/' + File_Name_Lower_2)

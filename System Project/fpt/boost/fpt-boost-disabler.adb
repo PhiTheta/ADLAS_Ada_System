@@ -11,9 +11,9 @@
 --------------------------------------- Change History: ----------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 --
---            Version           Date            Author          Description
---            -------           ----            ------          -----------
---            1.0               22/08/17        S.Crowther      Initial version
+--            Version         Date            Author          Description
+--            -------         ----            ------          -----------
+--            1.0             22/08/17        S.Crowther      Initial version
 ------------------------------------------------------------------------------------------------------------------------
 --------------------------------------- Parameters: --------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
@@ -31,15 +31,15 @@
 --            Description:      Template     
 --
 --
---            Equation Logic:   If x = 1 then      
---                                 If template_variable = 1 then
---                                    Test_Failed                   
---                                 else
---                                    Test Passed
---                                 end if  
---                              Else
---                                 Test Passed
---                              End if           
+--            Equation Logic: If x = 1 then      
+--                               If template_variable = 1 then
+--                                  Test_Failed                   
+--                               else
+--                                  Test Passed
+--                               end if  
+--                            Else
+--                               Test Passed
+--                            End if           
 --
 --            Return:           
 --            Boolean Value
