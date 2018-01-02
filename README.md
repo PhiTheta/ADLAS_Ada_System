@@ -13,6 +13,8 @@ Project based in Ada that performs system diagnostic checks on Imaginative Missi
 
 ### Mapping: This section contains details of which signal for tests is mapped to which procedure requirement wise and mapping of procedures to code names ###
 
+### Reviews: Unit reviews for each procedure ###
+
 ### Software Requirements: Explains the details of the system and also the requirements from a low level standpoint ###
 
 ### System Project: Inside this folder is the build for the system ###
