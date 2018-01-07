@@ -37,6 +37,8 @@ package body General_Checks is
                               Example_2,
 							  Example_3);
 
+   type Example_Phase_Type is range 0 .. 3;
+   
    Constant_1 : constant Example_Phase_Type := 0;
    Constant_2 : constant Example_Phase_Type := 1;
    Constant_3 : constant Example_Phase_Type := 2;
