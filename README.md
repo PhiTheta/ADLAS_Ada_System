@@ -40,3 +40,4 @@ Manuals has all the setup's necessary for working on this project
 
 ## License:
 License is included in LICENSE.txt
+edited by bubbles 
