@@ -42,15 +42,13 @@
 separate(General_Checks)
 
 
-function Check_Arming_Key_Lock
-     (Arming_Key_Lock  : in Signals.Input_Signal_Type)
-	  return Boolean
+procedure Check_Arming_Key_Lock
+     (Example_In       : in Example_Phase_Type,
+	  Example_Out      : out Sub_Example_Phase_Type)
   
 is
 
 begin
-  
-   return false;
 
 
 

@@ -35,8 +35,13 @@ Git Bash (Interfacing with code and documentation)
 
 Manuals has all the setup's necessary for working on this project
 
+Please read http://www.electronicdesign.com/embedded-revolution/assessing-ada-language-audio-applications for ada starting standards
+
 ## Credits:
 
+Gustavo Hoffmann, Raphaël Amiard 
+Assessing the Ada Language for Audio Applications
+on www.electronicDesign.com website
 
 ## License:
 License is included in LICENSE.txt
