@@ -1,8 +1,8 @@
 project Project_System is
 
    for Object_Dir use "Obj";
-   for Source_Dirs use ( "failure",  "stm32_setup", "Main_Systems_Checks", "Main", "common_types", "first_phase", "second_phase", "third_phase", "fourth_phase");
-   for Main use ("Project_Main.adb");
+   for Source_Dirs use ( "CBIT", "fail", "FBIT", "GBIT", general_checks", "IBIT", "monitor", "register", "types", "Main");
+   for Main use ("controller.adb");
    for Languages use ("Ada");
 
    package Naming is

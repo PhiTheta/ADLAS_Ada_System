@@ -1,0 +1,46 @@
+project ADLAS.Assignment is
+
+   for Object_Dir use "Obj";
+   for Source_Dirs use ("Main");
+   for Main use ("run.adb");
+   for Languages use ("Ada");
+
+   package Naming is
+      for Dot_Replacement use "-";
+   end Naming;
+
+   package Builder is
+      for Default_Switches ("ada") use ("-s", "-g", "-j4", "-C");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnato", "-gnatVn", "-fstack-check", "-gnatE", "-g", "-gnata", "-gnatf", "-gnat12");
+   end Compiler;
+
+   package Binder is
+      for Default_Switches ("ada") use ("-E");
+   end Binder;
+
+   package Linker is
+      for Default_Switches ("ada") use ("-g");
+   end Linker;
+
+   package Ide is
+      for Compiler_Command ("c") use "gcc";
+   end Ide;
+
+   package Prove is
+   end Prove;
+
+   package Pretty_Printer is
+      for Default_Switches ("ada") use ("-cl3", "-A1", "-A2", "-A3", "-A4", "-A5", "--separate-loop-then", "-c2", "-c5", "-M120");
+   end Pretty_Printer;
+
+   package Check is
+      for Switches ("ada") use ("-from=Coding_Standard");
+   end Check;
+
+end ADLAS.Assignment;
+
+
+

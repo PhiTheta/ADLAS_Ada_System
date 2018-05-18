@@ -27,20 +27,17 @@
 -- Return:           
 -- Boolean Value
 ------------------------------------------------------------------------------------------------------------------------
-with First_Phase;
-with Constants;
-with Main_System_Checks;
 
 procedure Project_Main is
    Complete : Boolean := False;
    begin
 
-   First_Phase.Initialise;
+   -- First_Phase.Initialise;
    
-   Complete := Main_System_Checks.Rocket_Motor_Check(Rocket_Motor => Constants.Primary);
+   -- Complete := Main_System_Checks.Rocket_Motor_Check(Rocket_Motor => Constants.Primary);
    
-   if Complete = False then
-      Complete := True;
-   end if;
+   -- if Complete = False then
+      -- Complete := True;
+   -- end if;
    
 end Project_Main;

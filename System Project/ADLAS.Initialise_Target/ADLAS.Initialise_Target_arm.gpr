@@ -1,8 +1,8 @@
-project Project_System_Arm is
+project ADLAS.Initialise_Target_arm is
 
    for Languages use ("Ada");
-   for Main use ("Project_Main.adb");
-   for Source_Dirs use ( "failure",  "stm32_setup", "Main_Systems_Checks", "Main", "common_types", "first_phase", "second_phase", "third_phase", "fourth_phase");
+   for Main use ("run.adb");
+   for Source_Dirs use ("Main");
    for Object_Dir use "obj";
    for Target use "arm-eabi";
    for Runtime ("ada") use "ravenscar-full-stm32f4";
@@ -22,5 +22,5 @@ project Project_System_Arm is
       for Communication_Protocol use "remote";
    end Ide;
 
-end Project_System_Arm;
+end ADLAS.Initialise_Target_arm
 
