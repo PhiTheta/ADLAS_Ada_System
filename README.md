@@ -1,4 +1,4 @@
-﻿## Project name: ##
+## Project name: ##
 # ADLAS_Ada_System #
 
 ## Description: ##
@@ -25,7 +25,7 @@ Project based in Ada that performs system diagnostic checks on Imaginative Missi
 
 Installation of three programs is necessary and Microsoft Word and Excel need to be already installed.
 
-GNAT GPS (Ada Compiler)
+GNAT GPS FREE(Ada Compiler)
 
 Beyond Compare (Version Checking)
 
@@ -39,7 +39,7 @@ Please read http://www.electronicdesign.com/embedded-revolution/assessing-ada-la
 
 ## Credits:
 
-Gustavo Hoffmann, Raphaël Amiard 
+Gustavo Hoffmann, Rapha�l Amiard 
 Assessing the Ada Language for Audio Applications
 on www.electronicDesign.com website
 
