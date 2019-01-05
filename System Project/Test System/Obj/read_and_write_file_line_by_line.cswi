@@ -1,0 +1,14 @@
+20180612152336
+-c
+-x
+ada
+-gnatA
+-g
+-gnato
+-gnatVn
+-fstack-check
+-gnatE
+-g
+-gnata
+-gnatf
+-gnat12

@@ -1,0 +1,40 @@
+[GENERATED OBJECT FILE]
+b__controller.o
+[PROJECT FILES]
+<<<<<<< HEAD
+/media/sf_unix/Ada/Test_System/bit.gpr
+20180612151653
+[BOUND OBJECT FILES]
+/media/sf_unix/Ada/Test_System/Obj/write_file.o
+/media/sf_unix/Ada/Test_System/Obj/controller.o
+=======
+C:\Users\simon\Documents\Programming\Ada\Test_System\bit.gpr
+20180616112958
+[BOUND OBJECT FILES]
+C:\Users\simon\Documents\Programming\Ada\Test_System\Obj\output.o
+C:\Users\simon\Documents\Programming\Ada\Test_System\Obj\controller.o
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053
+[GENERATED SOURCE FILES]
+b__controller.ads
+b__controller.adb
+b__controller.ali
+[RESULTING OPTIONS]
+<<<<<<< HEAD
+-L/media/sf_unix/Ada/Test_System/Obj/
+-L/media/sf_unix/Ada/Test_System/Obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/4.9/adalib/
+-shared
+-shared-libgcc
+-lgnat-4.9
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/4.9/adalib/
+/usr/lib
+=======
+-LC:\Users\simon\Documents\Programming\Ada\Test_System\Obj\
+-LC:\Users\simon\Documents\Programming\Ada\Test_System\Obj\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053

@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+20180630125710
+=======
+20180612160044
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053
+-c
+-x
+ada
+-gnatA
+-g
+-gnato
+-gnatVn
+-fstack-check
+-gnatE
+-g
+-gnata
+-gnatf
+-gnat12

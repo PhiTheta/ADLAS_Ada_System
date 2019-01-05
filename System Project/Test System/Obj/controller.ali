@@ -1,0 +1,127 @@
+<<<<<<< HEAD
+V "GNAT Lib v4.9"
+M P W=b
+A -fstack-check=specific
+=======
+V "GNAT Lib v2017"
+M P W=b
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053
+A -gnatA
+A -g
+A -gnato
+A -gnatVn
+<<<<<<< HEAD
+=======
+A -fstack-check=specific
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053
+A -gnatE
+A -g
+A -gnata
+A -gnatf
+A -gnat12
+A -mtune=generic
+<<<<<<< HEAD
+A -march=x86-64
+=======
+A -march=pentium4
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053
+P ZX
+
+RN
+RV NO_IO
+<<<<<<< HEAD
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U controller%b		controller.adb		0ef60026 DE NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W write_file%b		write_file.adb		write_file.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-titest.ads		20070406091342 f6e9e057
+D a-unccon.ads		20070406091342 f9eb8f06
+D controller.adb	20180612152707 c894328c
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D write_file.adb	20180612153317 fe0fc77e
+X 1 ada.ads
+16K9*Ada 19e8 10|30r6
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|30w10
+X 10 controller.adb
+33U11*controller 33b11 39l5 39t15
+34b4 Complete{boolean}
+X 30 write_file.adb
+5U11*write_File 10|31w6 37s4
+=======
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U controller%b		controller.adb		11d67d16 DE NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W output%s		output.adb		output.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D controller.adb	20180616121026 d83cd122 controller%b
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D output.ads		20180616121328 f18759e0 output%s
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|30r6 30r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|30w10 30r27
+52P9*File_Type 8|35r17
+X 8 controller.adb
+33U11*controller 33b11 41l5 41t15
+34a4 file_name{string} 39r35
+35p4 file_Output{6|52P9} 38m35 38r35
+X 11 output.ads
+3K9*Output 8|31w6 38r4 11|9e11
+5U14*Write_File 8|38s11
+6p7 Output{6|52P9} 8|38r22
+7a7 file_name{string} 8|39r22
+>>>>>>> 69f69bc261da4a8489896c1cdee2a7aab20a4053
+
